@@ -1,7 +1,6 @@
 # Created on Sat Mar 10 08:56:29 2018
 # 
 # @author: Rajesh Arumugam
-# Polynomial Regression
 # SVR
 
 # Importing the dataset
