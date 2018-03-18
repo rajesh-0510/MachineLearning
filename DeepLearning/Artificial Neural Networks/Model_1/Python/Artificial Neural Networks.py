@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 16 11:12:23 2018
 
-@author: rajarumu
+@author: Rajesh Arumugam
 """
 
 # Artificial Neural Network
