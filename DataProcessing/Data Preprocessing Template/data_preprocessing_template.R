@@ -17,6 +17,7 @@ dataset$Salary = ifelse(is.na(dataset$Salary),
                         dataset$Salary)
 
 
+#The function factor is used to encode a vector as a factor
 dataset$Purchased = factor(dataset$Purchased,
                            levels = c('No', 'Yes'),
                            labels = c(0, 1))
@@ -25,6 +26,7 @@ dataset$Purchased = factor(dataset$Purchased,
 # Splitting the dataset into the Training set and Test set
 # install.packages('caTools')
 library(caTools)
+#set.seed function in R is used to reproduce results i.e.  it produces the same sample again and again
 set.seed(123)
 split = sample.split(dataset$Purchased, SplitRatio = 0.8)
 training_set = subset(dataset, split == TRUE)

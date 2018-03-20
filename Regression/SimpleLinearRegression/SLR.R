@@ -15,7 +15,7 @@ split = sample.split(dataset$Salary, SplitRatio = 2/3)
 training_set = subset(dataset, split == TRUE)
 test_set = subset(dataset, split == FALSE)
 
-# Feature Scaling
+# Feature Scaling Note: For SLR no need to use the feature scaling and libraries will take care of it. 
 # training_set = scale(training_set)
 # test_set = scale(test_set)
 
